@@ -1,10 +1,9 @@
 # Statistical Analyses 
 
-# Read files into objects ----
+# Read files into objects -----
 
-  Final_Merge_Analysis <- read.csv("/Users/laurahudson/Desktop/FHS_Data01/Merge/Final_Merge_Analysis.csv", row.names =1, stringsAsFactors = FALSE, na.strings = c("", "NULL", "NA", " "))   
+  Final_Merge_Analysis <- read.csv("~/Desktop/FHS_Data01/Merge/Final_Merge_Analysis.csv", row.names =1, stringsAsFactors = FALSE, na.strings = c("", "NULL", "NA", " "))   
   
-  table(Final_Merge_Analysis$APC)
   
 # Select for variables with frequency >5% -----
   
